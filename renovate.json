@@ -1,4 +1,5 @@
 {
+  "disabled": true,
   "extends": [
     "config:base",
     ":automergePatch",
@@ -10,8 +11,12 @@
   ],
   "packageRules": [
     {
-      "updateTypes": ["major"],
-      "labels": ["UPDATE-MAJOR"]
+      "updateTypes": [
+        "major"
+      ],
+      "labels": [
+        "UPDATE-MAJOR"
+      ]
     }
   ]
 }
