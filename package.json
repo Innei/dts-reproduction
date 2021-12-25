@@ -3,9 +3,7 @@
   "private": true,
   "author": "Innei",
   "scripts": {
-    "case1": "dts-bundle-generator -o build/index.d.ts src/index.case1.ts --project tsconfig.json",
-    "case2": "dts-bundle-generator -o build/index.d.ts src/index.case2.ts --project tsconfig.json",
-    "case3": "dts-bundle-generator -o build/index.d.ts src/index.case3.ts --project tsconfig.json"
+    "dev": "dts-bundle-generator -o build/index.d.ts src/index.ts --project tsconfig.json"
   },
   "devDependencies": {
     "@zerollup/ts-transform-paths": "1.7.18",
